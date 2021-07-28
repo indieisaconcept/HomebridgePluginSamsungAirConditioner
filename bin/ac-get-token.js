@@ -20,6 +20,7 @@ function getToken(callback) {
         host: ipAddress, 
         rejectUnauthorized: false,
         ciphers: 'HIGH:!DH:!aNULL'
+        minVersion: 'TLSv1'
     }
 
     const socket = tls.connect(options, function () {

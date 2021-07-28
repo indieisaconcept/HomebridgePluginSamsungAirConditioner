@@ -1,5 +1,8 @@
 # Changelog
 
+## 3.0.0 - 28.07.2021
+- Upgrade to support node 14.0.0 & homebrigde 1.0.0 onwards
+
 ## 2.0.0 - 18.11.2018
 ### Added
 - Support for controlling oscillation
